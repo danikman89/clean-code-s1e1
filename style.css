@@ -144,7 +144,8 @@ button {
 }
 
 /* Completed */
-.completed-task__items .item__task-name {
+.completed-task__items 
+.item__task-name {
   text-decoration: line-through;
   color: #888;
 }
@@ -154,11 +155,13 @@ button {
   display: none;
 }
 
-.incomplete-task__item_edit-mode .item__input-text {
+.incomplete-task__item_edit-mode 
+.item__input-text {
   display: inline-block;
   width: 224px;
 }
 
-.incomplete-task__item_edit-mode .item__task-name {
+.incomplete-task__item_edit-mode 
+.item__task-name {
   display: none;
 }
